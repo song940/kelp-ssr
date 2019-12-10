@@ -1,0 +1,42 @@
+{
+  "name": "kelp-ssr",
+  "version": "0.0.1",
+  "description": "simplify server side rendering",
+  "main": "index.js",
+  "bin": "./bin/index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "author": "Lsong",
+  "license": "MIT",
+  "dependencies": {
+    "serialize-javascript": "^2.1.0"
+  },
+  "peerDependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.6.0"
+  },
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/song940/kelp-ssr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/song940/kelp-ssr/issues"
+  },
+  "homepage": "https://github.com/song940/kelp-ssr#readme",
+  "keywords": [
+    "kelp",
+    "ssr",
+    "react",
+    "server-side-rendering"
+  ]
+}
