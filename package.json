@@ -10,7 +10,7 @@
   "author": "Lsong",
   "license": "MIT",
   "dependencies": {
-    "serialize-javascript": "^2.1.0"
+    "serialize-javascript": "^4.0.0"
   },
   "peerDependencies": {
     "react": "^16.9.0",
